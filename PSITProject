@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body, html {
+      margin: 0;
+    }
+
+    mainfont.lm {
+        font-family: "Sunset Boulevard", serif;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: black;
+    }
+
+    a:link, a:visited {
+      background-color: crimson;
+      color: white;
+      padding: 20px 150px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    a:hover, a:active {
+      background-color: crimson;
+      border-style: solid;
+    }
+
+</style>
+<body>
+    <div style="background-color: crimson; padding-top: 200px">
+        <mainfont class="lm" style="padding-left: 350px; font-size: 350px; color: white;">
+            IT
+            <span style="font-family: Shorelines Script; font-size: 100px; margin: -70px;">
+                HEALTH
+            </span>
+        </mainfont>
+    </div>
+    <div style="padding-top: 30px">
+        <span style="font-family: Kanit; font-size: 25px; padding-left: 350px;">
+            เว็บของเราประกอบไปด้วยข้อมูลต่างๆ ที่ให้ข้อมูลทางสุขภาพ ผ่านการตอบข้อมูลของคุณ
+        </span>
+    </div>
+    <div style="padding-top: 20px; padding-left: 350px">
+        <a href="default.asp" target="_blank">
+            <span style="font-family: Kanit; font-size: 50px;">
+                ตอบคำถาม
+            </span>
+        </a>
+    </div>
+</body>
+</html>
